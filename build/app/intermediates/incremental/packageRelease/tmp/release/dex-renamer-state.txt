@@ -1,0 +1,4 @@
+#Sat Nov 04 23:48:20 MMT 2023
+base.0=C\:\\Users\\sitty\\Desktop\\Assignement\\IoT\\remote_car_app\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,12 @@
+com.matteogassend.bluetooth_classic-jetified-window-1.0.0-beta04-0 C:\Users\sitty\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\res
+com.matteogassend.bluetooth_classic-jetified-annotation-experimental-1.1.0-1 C:\Users\sitty\.gradle\caches\transforms-3\6c0c163cc77ae6c91f9f7dfcd179c29c\transformed\jetified-annotation-experimental-1.1.0\res
+com.matteogassend.bluetooth_classic-core-1.6.0-2 C:\Users\sitty\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\res
+com.matteogassend.bluetooth_classic-jetified-window-java-1.0.0-beta04-3 C:\Users\sitty\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\res
+com.matteogassend.bluetooth_classic-main-4 C:\Users\sitty\AppData\Local\Pub\Cache\hosted\pub.dev\bluetooth_classic-0.0.1\android\src\main\res
+com.matteogassend.bluetooth_classic-release-5 C:\Users\sitty\AppData\Local\Pub\Cache\hosted\pub.dev\bluetooth_classic-0.0.1\android\src\release\res
+com.matteogassend.bluetooth_classic-pngs-6 C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\build\bluetooth_classic\generated\res\pngs\release
+com.matteogassend.bluetooth_classic-resValues-7 C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\build\bluetooth_classic\generated\res\resValues\release
+com.matteogassend.bluetooth_classic-rs-8 C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\build\bluetooth_classic\generated\res\rs\release
+com.matteogassend.bluetooth_classic-mergeReleaseResources-9 C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\build\bluetooth_classic\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.matteogassend.bluetooth_classic-mergeReleaseResources-10 C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\build\bluetooth_classic\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.matteogassend.bluetooth_classic-merged_res-11 C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\build\bluetooth_classic\intermediates\merged_res\release

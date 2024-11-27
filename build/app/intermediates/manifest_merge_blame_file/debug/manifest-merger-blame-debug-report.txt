@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.remote_car"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <!--
+17     Tell Google Play Store that your app uses Bluetooth LE
+18     Set android:required="true" if bluetooth is necessary
+19    -->
+20    <uses-feature
+20-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:5:5-91
+21        android:name="android.hardware.bluetooth_le"
+21-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:5:19-63
+22        android:required="false" />
+22-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:5:64-88
+23    <!--
+24 New Bluetooth permissions in Android 12
+25    https://developer.android.com/about/versions/12/features/bluetooth-permissions
+26    -->
+27    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+27-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:9:5-72
+27-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:9:22-70
+28    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+28-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:10:5-76
+28-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:10:22-73
+29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- legacy for Android 11 or lower -->
+29-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:11:5-79
+29-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:11:22-76
+30    <uses-permission
+30-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:14:5-95
+31        android:name="android.permission.BLUETOOTH"
+31-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:14:22-65
+32        android:maxSdkVersion="30" />
+32-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:14:66-92
+33    <uses-permission
+33-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:15:5-101
+34        android:name="android.permission.BLUETOOTH_ADMIN"
+34-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:15:22-71
+35        android:maxSdkVersion="30" /> <!-- legacy for Android 9 or lower -->
+35-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:15:72-98
+36    <uses-permission
+36-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:18:5-108
+37        android:name="android.permission.ACCESS_COARSE_LOCATION"
+37-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:18:22-78
+38        android:maxSdkVersion="28" />
+38-->C:\Users\sitty\Desktop\Assignement\IoT\remote_car_app\android\app\src\main\AndroidManifest.xml:18:79-105
+39
+40    <application
+41        android:name="android.app.Application"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.6.0] C:\Users\sitty\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+45        android:label="remote_car" >
+46        <activity
+47            android:name="com.example.remote_car.MainActivity"
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+49            android:exported="true"
+50            android:hardwareAccelerated="true"
+51            android:launchMode="singleTop"
+52            android:theme="@style/LaunchTheme"
+53            android:windowSoftInputMode="adjustResize" >
+54
+55            <!--
+56                 Specifies an Android theme to apply to this Activity as soon as
+57                 the Android process has started. This theme is visible to the user
+58                 while the Flutter UI initializes. After that, this theme continues
+59                 to determine the Window background behind the Flutter UI.
+60            -->
+61            <meta-data
+62                android:name="io.flutter.embedding.android.NormalTheme"
+63                android:resource="@style/NormalTheme" />
+64
+65            <intent-filter>
+66                <action android:name="android.intent.action.MAIN" />
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+76            android:name="flutterEmbedding"
+77            android:value="2" />
+78
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\sitty\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+80            android:name="androidx.window.extensions"
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\sitty\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\sitty\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+82        <uses-library
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\sitty\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+83            android:name="androidx.window.sidecar"
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\sitty\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\sitty\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+85    </application>
+86
+87</manifest>

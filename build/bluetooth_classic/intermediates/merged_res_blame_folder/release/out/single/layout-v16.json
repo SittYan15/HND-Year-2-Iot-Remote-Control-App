@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.matteogassend.bluetooth_classic-merged_res-10:/layout-v16/notification_template_custom_big.xml",
+        "source": "com.matteogassend.bluetooth_classic-core-1.6.0-2:/layout-v16/notification_template_custom_big.xml"
+    }
+]

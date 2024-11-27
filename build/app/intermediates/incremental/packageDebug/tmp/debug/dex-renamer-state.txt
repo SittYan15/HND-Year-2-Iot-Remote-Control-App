@@ -1,0 +1,4 @@
+#Fri Nov 03 14:06:12 MMT 2023
+base.0=C\:\\Users\\sitty\\Desktop\\Assignement\\IoT\\remote_car_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
